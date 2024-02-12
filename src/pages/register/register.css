@@ -1,0 +1,99 @@
+.register-page {
+    height: 100vh;
+}
+
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+}
+
+.signup-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.signup-image {
+    margin-top: 20px;
+    width: 560px;
+    height: 520px;
+    border-radius: 5px;
+}
+
+.signup-form-container {
+    flex: 1;
+}
+
+.signup-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.register-button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #2a9df4;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-password {
+    width: 100%;
+}
+
+.p-password .p-inputtext {
+    padding-right: 40px;
+}
+
+.p-password .p-password-panel {
+    right: 10px;
+}
+
+.login-link {
+    text-align: center;
+}
+
+svg.p-icon {
+    pointer-events: auto;
+    right: 5%;
+    top: 36%;
+}
